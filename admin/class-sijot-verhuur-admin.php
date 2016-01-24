@@ -110,7 +110,7 @@ class Sijot_Verhuur_Admin {
 		/**
 		 * Add a settings page for this plugin to the Settings menu. 
 		 */
-		add_options_page('Aanvragen', $this->plugin_name, array($this, 'display_plugin_setup_page');
+		add_options_page('WP Cleanup and Base Options Functions Setup', 'WP Cleanup', 'manage_options', $this->plugin_name, array($this, 'display_plugin_setup_page');
 	}
 
 	/**
