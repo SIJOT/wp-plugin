@@ -137,7 +137,7 @@ public function add_action_links( $links ) {
  */
  
 public function display_plugin_setup_page() {
-    include_once( 'partials/wp-cbf-admin-display.php' );
+    include_once( 'partials/sijot-verhuur-admin-display.php' );
 }
 
 }
